@@ -6,6 +6,11 @@
         <script src="https://kit.fontawesome.com/d4f2148171.js" crossorigin="anonymous"></script>       
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- Fontawesome CSS -->
+	    <link type="text/css" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.css">
+	    <!-- Bootstrap CSS -->
+	    <link type="text/css" rel="stylesheet" href="https://unpkg.com/bootstrap/dist/css/bootstrap.min.css" />
+
     </head>
             
                  <style>
@@ -164,6 +169,12 @@ border-radius: 6px;
     color: black;
 }
 
+#btn-col {
+    background: #0ABAB5;
+    color: #fff;
+    border: none
+}
+
 
 @media only screen and (max-width: 600px) {
     .pricing .title-header h1{
@@ -174,12 +185,11 @@ border-radius: 6px;
         padding: 20px;
     }
 
-    
-
     .pricecol{
         margin: 20px auto
     }
   }
+  
                  </style>
             </head>
 
@@ -314,7 +324,7 @@ border-radius: 6px;
         <article>
                 <div class="enter-div">
                     <h4 id="enter-line">Enterprise ready tools</h4>
-                    <h6>with dedicated support and quick and consistent deolverance of new features, you can trust your<br>
+                    <h6>with dedicated support and quick and consistent deliverance of new features, you can trust your<br>
                     process in our able hands</h6>
                     <br>
                     <button type="button" class="btn button" >Contact Sales</button>
@@ -325,8 +335,9 @@ border-radius: 6px;
                 <div class="row">
                 <div class="col-sm-2">
                     
-                        <h6 id="lancer">Lan<span style="color: aqua">c</span>ers</span></h6>
-                        <a href="#" class="link">Pricing</a>
+                        <img src="https://lancer-app.000webhostapp.com/images/svg/logo-dark.svg" alt="" class="img img-responsive mb-2" height="30" width="auto">
+						    <br>
+                    <a href="#" class="link">Pricing</a>
                         <br>
                         <a href="/signin.html" class="link">Sign in</a>
                         <br>
@@ -351,18 +362,33 @@ border-radius: 6px;
                     
                         <h6>Reach us</h6>
                         <p> 52b Charity Lane, off Magboso Highway, Ikate,<br> London, Nigeria</p>                
-                        <i class="fab fa-facebook-square fa-2x"></i>
-                        <i class="fab fa-twitter-square fa-2x"></i>
+                        <i class="fab fa-facebook-square "></i>
+                        <i class="fab fa-twitter-square"></i>
                 </div>
                 <div class="col-sm-4" id="col4">
                         <h6>Stay up to date</h6>
                         <p>Get emails about our newest features and events <br> you can visit, we promise not to spam</p>
-                        <input type="text" placeholder="Email Address" id="email-input">
-                        <button id="btn-sub">Subscribe</button>
+                        <form class="form-inline">
+                                <div class="form-group mb-2 mr-2">
+                                    <label for="staticEmail2" class="sr-only">Email</label>
+                                    <input type="email" class="form-control" id="staticEmail2" value="" placeholder="Email Address" required>
+                                </div>
+                                <button type="submit" class="btn btn-secondary mb-2" id="btn-col">Subscribe</button>
+                            </form>    
+                    </div>
                 </div>
-                </div>
+
             </div>
+            <div class="bg-white text-left py-2 mt-0">
+                    <div class="container">
+                        <p class="float-right">
+                        <a href="#">Back to top</a>
+                        </p>
+                        <p>&copy; Lancer 2019.</p>
+                    </div>
+                </div>
             </footer>
+            
         
             <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
             <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
